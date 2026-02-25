@@ -59,4 +59,4 @@ function exibirHTML(numero, i, resultado){
     let li= document.createElement('li')
     li.innerText = `${numero} * ${i} = ${resultado}`
     ul.appendChild(li)
-}
+} 
